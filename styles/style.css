@@ -15,7 +15,7 @@
 }    
 @font-face{
     font-family: Rubik;
-    src: url('./Rubik/Rubik-VariableFont_wght.ttf');
+    src: url('../Rubik/Rubik-VariableFont_wght.ttf');
 }
 *{
     font-family: Rubik, sans-serif;
