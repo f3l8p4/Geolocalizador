@@ -1,0 +1,117 @@
+@media (min-width: 639px) and (min-height:580px){
+  .card{
+      display:inline-flex;
+      width: 50%;
+  }  
+}
+@media (min-width: 48rem) {
+    div {
+      padding: 0 2rem;
+      min-height: 4.80rem;
+    }
+    span {
+        font-size: 1.25rem;
+      }    
+}    
+@font-face{
+    font-family: Rubik;
+    src: url('./Rubik/Rubik-VariableFont_wght.ttf');
+}
+*{
+    font-family: Rubik, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+   display: inline-flex;
+   color: hsl(0, 5%, 54%);
+   font-size: 15px;
+}
+input {
+    height: 100%;
+    border: none;
+    padding-left: 1.125rem;
+    flex-grow: 1;
+    font-size: 1rem;
+    outline: none !important;
+}  
+h5{
+    font-size: 1.0rem;
+    color:#969696;
+    padding: 0.7rem 0;
+}  
+span {
+    font-weight: 700;
+    color: hsl(0, 0%, 17%);
+    padding: 0.7rem ;
+    font-size: 1.125rem;
+  }
+#mapid {
+   height:100vh;  
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   z-index: -2;
+} 
+.Background{
+    background-image: url('images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 16rem;
+    z-index: -1;
+}
+.content{
+    width: 85%;
+    padding: 10px;
+    margin:  0 auto;
+    text-align: center;
+}
+.text-th3{
+    font-size: 20px;
+    margin: 10px auto;
+    color: #FFF;
+    font-weight: 100;
+    left: 50%;
+}
+.Barra_Pesquisa{
+    width: 75%;
+  max-width: 34rem;
+  height: 3rem;
+  background-color: white;
+  display: inline-flex;
+  margin: auto;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.arrow{
+    margin: 0;
+    float:inline-start;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    border-radius: 0 13px 13px 0;
+    background-color:hsl(0, 0%, 17%);
+    outline: none !important;
+    cursor: pointer;
+}
+.card{
+    display: inline-flex;
+    width: 90%;
+    max-width: 60rem;    
+    min-width: 10rem;
+    min-height: 8rem;
+    border-radius: 0.8rem;
+    background-color: white;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-between; 
+}
+.leaflet-control-container{
+    display: none;
+}

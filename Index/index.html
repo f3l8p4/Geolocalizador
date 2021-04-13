@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--Mapa-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <!--Arquivo Javascript-->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script> 
+   <!--IPFY--> 
+   <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+</script>
+
+</head>
+<body>
+  <div class="Background">
+      <div class="content">
+              <h1 class="text-th3">IP Address Tracker</h1>
+                <input type="text" class="Barra_Pesquisa" placeholder="Search for any IP address or any domain">
+                <button class="arrow">
+                  <img src="images/icon-arrow.svg" alt="">
+                </button>
+      </div>
+      <div class="card">
+        <div>
+          <h5>Ip Address</h5>
+          <span></span>
+        </div>
+        <div>
+          <h5>Location</h5>
+          <span></span>
+        </div>
+        <div>
+          <h5>Timezone</h5>
+          <span></span>
+        </div>
+        <div>
+          <h5>ISP</h5>
+          <span></span>
+        </div>
+    </div>       
+  </div>
+
+  <!--Mapa-->
+  
+  <div id="mapid">
+    <!--Configurações do mapa-->
+    <script src="mapa.js"></script>
+
+  </div>
+  
+
+</body>
+</html>
