@@ -1,6 +1,6 @@
 @media (min-width: 639px) and (min-height:580px){
   .card{
-      display:inline-flex;
+      display:block;
       width: 50%;
   }  
 }
